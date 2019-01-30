@@ -1,12 +1,9 @@
-
-
-
 /***********************************************
 * Name: Christian Garcia
 * Email: garcia86@students.rowan.edu
 ***********************************************
 * Purpose:
-*  This program calculates area of circle
+* This Program converts a given distance in miles into kilometers.
 ***********************************************/
 
 #include <iostream>
@@ -17,6 +14,24 @@ const  float PI = 3.14159;
 
 int main()
 {
+
+		float miles, kilometers;
+
+	//Display purpose of the program
+	cout << " ******************************************" << endl;
+	cout << " This Program converts a given distance in miles into kilometers." << endl;
+	cout << " ******************************************\n\n";
+
+	//Get user input
+	cout << "Please input distance in miles: ";
+	cin >> miles;
+
+	//Compute kilometers to miles * 1.60934
+	kilometers = miles * 1.60934;
+
+	//Display the distance in kilometers 
+	cout << " The distance in kilometers is = " << kilometers << "\n\n";
+	cout << "Program has ended" << endl;
 
 	float radius, area, circumference;
 	
