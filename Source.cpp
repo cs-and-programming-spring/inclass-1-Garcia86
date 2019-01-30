@@ -33,13 +33,13 @@ int main()
 	cout << "Please input distance in miles: ";
 	cin >> miles;
 
-	//Compute meters to miles * 
+	//Compute meters to miles * 1609.34
 	meters = miles * 1609.34;
 	
-	//Compute centimeters to miles * 
+	//Compute centimeters to miles * 160934
 	centimeters = miles * 160934;
 	
-	//Compute millimeters to miles * 
+	//Compute millimeters to miles * 1.609e+6
 	millimeters = miles * 1.609e+6;
 
 	//Display the distance in meters 
