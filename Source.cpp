@@ -22,6 +22,32 @@ int main()
 	* This program converts a distance in miles to meters, centimeters, and millimeters.
 	***********************************************/
 	
+	float Celsius, Fahrenheit;
+
+	//Display purpose of the program
+	cout << " ******************************************" << endl;
+	cout << " This program converts a temperature in degrees Celsius to degrees Fahrenheit." << endl;
+	cout << " ******************************************\n\n";
+
+	//Get user input
+	cout << "Please input temperature in Celsius: ";
+	cin >> Celsius;
+
+	//Compute Fahrenheit to Celsius * * (9/5) + 32
+	Fahrenheit = Celsius * (1.8) + 32;
+	
+
+	//Display the degrees in Fahrenheit 
+	cout << "The degrees in Fahrenheit is = " << Fahrenheit << "\n\n";
+	
+	/***********************************************
+	* Name: Christian Garcia
+	* Email: garcia86@students.rowan.edu
+	***********************************************
+	* Purpose:
+	* This program converts a distance in miles to meters, centimeters, and millimeters.
+	***********************************************/
+	
 	float miles, meters, centimeters, millimeters, kilometers;
 
 	//Display purpose of the program
