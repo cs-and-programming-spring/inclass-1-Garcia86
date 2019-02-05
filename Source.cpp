@@ -19,7 +19,7 @@ int main()
 	* Email: garcia86@students.rowan.edu
 	***********************************************
 	* Purpose:
-	* This program converts a distance in miles to meters, centimeters, and millimeters.
+	* This program converts a temperature in degrees Celsius to degrees Fahrenheit.
 	***********************************************/
 	
 	float Celsius, Fahrenheit;
