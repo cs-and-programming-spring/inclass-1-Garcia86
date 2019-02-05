@@ -19,6 +19,30 @@ int main()
 	* Email: garcia86@students.rowan.edu
 	***********************************************
 	* Purpose:
+	* This program prints my first initial as a block letter.
+	***********************************************/ 
+  
+  //Display purpose of the program
+	cout << " ******************************************" << endl;
+	cout << " This program prints my first initial as a block letter." << endl;
+	cout << " ******************************************\n\n";
+  
+  //Get user input
+	cout << "Christian Garcia's first initial as a block letter looks like this! \n\n";
+  
+  //Display the block letter
+  cout << " *****" << endl;
+  cout << "*     " << endl;
+  cout << "*     " << endl;
+  cout << "*     " << endl;
+  cout << "*     " << endl;
+  cout << " *****" << endl;
+	
+	/***********************************************
+	* Name: Christian Garcia
+	* Email: garcia86@students.rowan.edu
+	***********************************************
+	* Purpose:
 	* This program converts a person's age to years, months, days, hours, minutes, and seconds.
 	***********************************************/
 
