@@ -19,6 +19,63 @@ int main()
 	* Email: garcia86@students.rowan.edu
 	***********************************************
 	* Purpose:
+	* This program converts a person's age to years, months, days, hours, minutes, and seconds.
+	***********************************************/
+
+    
+    
+  float age, years, months, days, hours, minutes, seconds;
+
+	//Display purpose of the program
+	cout << " ******************************************" << endl;
+	cout << " This program converts a person's age to years, months, days, hours, minutes, and seconds." << endl;
+	cout << " ******************************************\n\n";
+
+	//Get user input
+	cout << "Please input person's age: ";
+	cin >> age;
+
+	//Compute years to age
+	years = age;
+	
+	//Compute months to years * 12
+	months = years * 12;
+	
+	//Compute days to years * 365.25
+	days = years * 365.25;
+	
+	//Compute hours to days * 24
+	hours = days * 24;
+	
+	//Compute minutes to hours * 60
+	minutes = hours * 60;
+
+   	 //Compute seconds to minutes * 60
+	seconds = minutes * 60;
+
+	//Display the age in years 
+	cout << "The age in years is = " << years << "\n\n";
+	
+	//Display the age in months 
+	cout << "The age in months is = " << months << "\n\n";
+	
+	//Display the age in days 
+	cout << "The age in days is = " << days << "\n\n";
+	
+	//Display the age in hours 
+	cout << "The age in hours is = " << hours << "\n\n";
+	
+	//Display the age in minutes 
+	cout << "The age in minutes is = " << minutes << "\n\n";
+	
+	//Display the age in seconds 
+	cout << "The age in seconds is = " << seconds << "\n\n";
+	
+	/***********************************************
+	* Name: Christian Garcia
+	* Email: garcia86@students.rowan.edu
+	***********************************************
+	* Purpose:
 	* This program converts a temperature in degrees Celsius to degrees Fahrenheit.
 	***********************************************/
 	
