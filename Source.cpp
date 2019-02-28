@@ -233,7 +233,11 @@ if ((number > 1) && (number < 10000))
     }   
 
 }
-
+else
+    {
+    cout<<"The value you input was not in the specified range"<<endl;
+    }
+	
 cout<<endl;
 cout<<endl;
 }
